@@ -3,3 +3,29 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.box1 {
+  border: 1px solid black;
+  padding: 50px;
+  text-align: center;
+}
+
+.item {
+  padding: 10px;
+}
+
+.header {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .box1 {
+    padding: 10px;
+  }
+  .item {
+    padding: 3px;
+    padding-left: 0px;
+    text-align: center;
+  }
+}
